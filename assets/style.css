@@ -16,3 +16,8 @@ body, html {
   background-size: cover!important;
   opacity: 0.7;
 }
+footer{
+  position:relative;
+  justify-content: center;
+  
+}
