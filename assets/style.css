@@ -86,9 +86,11 @@ body {
   margin: 20px;
 }
 
-.benefits {
+.sidebar {
   margin-right: 20px;
+  margin-top: 20px;
   padding: 20px;
+  padding-top: 50px;
   clear: both;
   float: right;
   width: 20%;
@@ -97,53 +99,55 @@ body {
   background-color: teal;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
+.myths-facts {
+  margin-bottom: 50px;
+  margin-top: 40px;
   color: blanchedalmond;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
+.Sexual-Violence-Media {
+  margin-bottom: 50px;
+  margin-top: 50px;
   color: blanchedalmond;
 }
 
-.benefit-cost {
+/* .benefit-cost {
   margin-bottom: 32px;
   color: blanchedalmond;
-}
+} */
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
+.myths-facts h3 {
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
+.Sexual-Violence-Media h3 {
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.benefit-cost h3 {
+/* .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
-}
+} */
 
-.benefit-lead img {
+.myths-facts img {
   display: block;
-  margin: 10px auto;
+  margin: 30px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
+.Sexual-Violence-Media img {
   display: block;
-  margin: 10px auto;
+  margin: 30px auto;
   max-width: 150px;
 }
 
-.benefit-cost img {
+/* .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
+} */
 
 .about {
   margin-bottom: 20px;
@@ -158,7 +162,7 @@ body {
   text-align: center;
 }
 
-.search-engine-optimization {
+.male {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -167,7 +171,7 @@ body {
   color: blanchedalmond;
 }
 
-.online-reputation-management {
+.sexual-harassment {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -176,7 +180,7 @@ body {
   color: blanchedalmond;
 }
 
-.social-media-marketing {
+.rape-culture {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -185,29 +189,29 @@ body {
   color: blanchedalmond;
 }
 
-.search-engine-optimization img {
+.male img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
+.sexual-harassment img {
   max-height: 200px;
 }
 
-.social-media-marketing img {
+.rape-culture img {
   max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.male h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.sexual-harassment h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.rape-culture h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
