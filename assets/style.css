@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: blanchedalmond !important;
   /* background-color: rgb(71, 255, 253); */
 }
 
@@ -223,11 +223,12 @@ body {
 
 /* Reporting page styling */
 
-natinalhotline {
+.natinalhotline {
   display: inline-block;
   width: 100%;
   margin-left: 20px;
   margin-right: 20px;
+  background-color: blanchedalmond;
 }
 
 .hotline {
@@ -241,8 +242,11 @@ natinalhotline {
   text-align: center;
 }
 
-.reporting {
-  width: 47%;
+.container {
+  background-color: blanchedalmond;
+}
+
+.rainn {
   display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
@@ -257,8 +261,6 @@ natinalhotline {
   color: blanchedalmond;
 }
 
-
-
 .rainn img {
   max-height: 200px;
 }
@@ -268,15 +270,36 @@ natinalhotline {
   font-size: 36px;
 }
 
+.options img {
+  max-height: 200px;
+}
+
+.options h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.options {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
 .form {
   margin-left: 0px;
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  clear: both;
-  float: right;
-  width: 47%;
   height: 300px;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -284,13 +307,33 @@ natinalhotline {
   color: blanchedalmond;
 }
 
-
-
 .form img {
   max-height: 200px;
 }
 
 .form h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.rights {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 300px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.rights img {
+  max-height: 200px;
+}
+
+.rights h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
