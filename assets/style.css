@@ -1,4 +1,4 @@
-/* All html styling */
+/* All pages */
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,17 @@
 
 body {
   background-color: blanchedalmond !important;
-  /* background-color: rgb(71, 255, 253); */
+  justify-content: center;
+}
+
+a:link {
+  color: teal;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  color: teal
 }
 
 .logo {
@@ -17,11 +27,12 @@ body {
   max-width: 150px;
 }
 
-.header {
-  padding: 20px;
+.navbar navbar-expand-lg {
+  padding: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: blanchedalmond;
-  color: black;
+  color: teal;
+  font-size: 30px;
 }
 
 .header h1 {
@@ -339,3 +350,62 @@ body {
 }
 
 /* Relationship page styling */
+
+.relationship {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+  justify-content: center;
+}
+
+.relationship img {
+  max-height: 200px;
+}
+
+.relationship h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.video {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 35%;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  /* color: blanchedalmond; */
+  justify-content: center;
+}
+
+/* .video img {
+  max-height: 200px;
+} */
+
+.video h3 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: teal;
+  justify-content: center;
+}
