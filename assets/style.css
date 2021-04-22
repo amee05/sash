@@ -11,14 +11,8 @@ body {
   justify-content: center;
 }
 
-a:link {
-  color: teal;
-  text-decoration: none;
-}
-
-.navbar-nav {
-  font-size: 20px;
-  color: teal
+nav .navbar .navbar-link a {
+  color: teal !important;
 }
 
 .logo {
@@ -371,9 +365,8 @@ a:link {
   max-height: 200px;
 }
 
-
 .video {
- align-self: center;
+  align-self: center;
   /* display: inline-block; */
   text-align: center;
   margin-top: 20px;
@@ -387,6 +380,3 @@ a:link {
   font-size: 20px;
   justify-content: center;
 }
-
-
-
