@@ -11,9 +11,7 @@ body {
   justify-content: center;
 }
 
-nav .navbar .navbar-link a {
-  color: teal !important;
-}
+
 
 .logo {
   display: block;
@@ -21,13 +19,7 @@ nav .navbar .navbar-link a {
   max-width: 150px;
 }
 
-.navbar navbar-expand-lg {
-  padding: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: blanchedalmond;
-  color: teal;
-  font-size: 30px;
-}
+
 
 .header h1 {
   display: inline-block;
