@@ -149,36 +149,36 @@ body {
 }
 
 .myths-facts {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   color: blanchedalmond;
 }
 
 .Sexual-Violence-Media {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   color: blanchedalmond;
 }
 
 .myths-facts h3 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .Sexual-Violence-Media h3 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .myths-facts img {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
   max-width: 150px;
 }
 
 .Sexual-Violence-Media img {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
   max-width: 150px;
 }
 
@@ -210,12 +210,12 @@ body {
 
 .male h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .rape-culture h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 /* Reporting page styling */
@@ -339,8 +339,8 @@ body {
 
 .relationship {
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
   /* margin-left: 30%; */
   margin-right: auto;
   padding: 20px;
