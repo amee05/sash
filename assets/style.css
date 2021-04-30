@@ -338,7 +338,7 @@ body {
 /* Relationship page styling */
 
 .relationship {
-  display: inline-block;
+  /* display: inline-block; */
   /* margin-top: 20px;
   margin-bottom: 20px; */
   /* margin-left: 30%; */
@@ -356,6 +356,7 @@ body {
 
 .relationship img {
   max-height: 200px;
+  background-color: blanchedalmond;
 }
 
 .video {
